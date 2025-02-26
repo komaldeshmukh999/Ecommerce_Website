@@ -1,0 +1,58 @@
+.cart-container {
+    position: fixed;
+    top: 0;
+    right: -350px; /* Initially hidden */
+    width: 350px;
+    height: 80%;
+    transition: right 0.60s ease;
+    z-index: 1000; /* Ensure it's on top */
+    box-shadow: -10px 0 20px rgba(0, 0, 0, 0);
+  }
+  
+  .cart-container.open {
+    right: 0;
+    box-shadow: -10px 0 20px rgba(0, 0, 0, 0.3);
+  }
+  
+  .card {
+    background-color: #f0f0f0;
+    height: 100%;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    overflow-y: auto;
+    margin-top: 50px;
+  }
+  
+  .card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .card h1 {
+    margin: 0;
+  }
+  
+  .close-btn {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  

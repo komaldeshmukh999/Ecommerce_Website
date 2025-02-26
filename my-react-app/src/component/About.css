@@ -1,0 +1,32 @@
+.Generic-boxforabout{
+    height:200px;
+    background-color: grey;
+    color:white;  
+    text-align: center;
+}
+.about-content{
+    text-align: center;
+    font-size: large;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.about-footer{
+    height:200px;
+    background-color:lightskyblue;
+    color: white;
+}
+.main-content{
+    max-width: 900px;
+    margin: 0 auto;
+    font-size: 22px;
+    img{
+        width: 200px; /* Or any desired size */
+        height: 200px; /* Must be the same as width */
+        border-radius: 50%;
+        object-fit: cover; 
+        display: inline-block;
+
+    }
+}
